@@ -19,6 +19,7 @@ public class DBConnectionDemo {
 		System.out.println(connection);
 	
 		//close connection
+		//Demo GitBub
 		connection.close();
 	}
 

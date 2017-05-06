@@ -10,8 +10,7 @@ public class DBConnectionDemo {
 		//Load DB Driver
 		Class.forName("com.mysql.jdbc.Driver");
 		
-		//Get Connection
-       // URL(host name,port,dbname) / username / password
+
 		Connection connection = DriverManager.
 								getConnection("jdbc:mysql://localhost:3306/april2017","root","root");
 	
